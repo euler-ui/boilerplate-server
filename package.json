@@ -1,18 +1,9 @@
 {
-  "name": "react-boilerplate",
+  "name": "react-boilerplate-server",
   "version": "1.0.0-alpha",
-  "description": "React BoilerPlate with material-ui",
+  "description": "The server for boilerplate sample.",
   "scripts": {
-    "start": "webpack-dev-server --port 3000",
-    "server": "nodemon server/index.js -w server/",
-    "prod": "webpack -p --config webpack.config.prod.js --progress --colors",
-    "start:prod": "node scripts/startProduct.js"
-  },
-  "babel": {
-    "presets": [
-      "es2015",
-      "react"
-    ]
+    "start": "nodemon server/index.js -w server/"
   },
   "dependencies": {
   },
