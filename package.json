@@ -3,13 +3,13 @@
   "version": "1.0.0-alpha",
   "description": "The server for boilerplate sample.",
   "scripts": {
-    "start": "nodemon server/index.js -w server/"
+    "start": "node server/index.js"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "express": "^4.13.3",
+    "body-parser": "^1.15.2",
     "cookie-parser": "^1.4.3",
-    "body-parser": "^1.15.2"
+    "express": "^4.13.3",
+    "nodemon": "^1.11.0"
   }
 }
