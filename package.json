@@ -1,0 +1,24 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0-alpha",
+  "description": "React BoilerPlate with material-ui",
+  "scripts": {
+    "start": "webpack-dev-server --port 3000",
+    "server": "nodemon server/index.js -w server/",
+    "prod": "webpack -p --config webpack.config.prod.js --progress --colors",
+    "start:prod": "node scripts/startProduct.js"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "express": "^4.13.3",
+    "cookie-parser": "^1.4.3",
+    "body-parser": "^1.15.2"
+  }
+}
