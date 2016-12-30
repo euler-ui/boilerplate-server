@@ -1,0 +1,4 @@
+# Node build artifacts
+noddde_modules
+npm-debug.log
+.DS_Store
